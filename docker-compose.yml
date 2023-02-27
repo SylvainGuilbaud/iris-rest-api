@@ -12,3 +12,8 @@ services:
       - 53773
     volumes:
       - ./:/irisdev/app
+  swagger-editor:
+    image: swaggerapi/swagger-editor
+    container_name: "swagger-editor"
+    ports:
+      - "8081:8080"

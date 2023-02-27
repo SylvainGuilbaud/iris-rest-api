@@ -13,6 +13,9 @@
         "internalPort": 52773
       },
       "active": true
+      "links": {
+        "swagger-ui":"http://localhost:52773/swagger-ui/index.html"
+      }
     },
     "sqltools.connections": [
       {
